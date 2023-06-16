@@ -4,6 +4,6 @@
     [UserId] INT NOT NULL, 
     [Title] NVARCHAR(150) NOT NULL, 
     [Body] TEXT NOT NULL, 
-    [Date Created] DATETIME2 NOT NULL, 
+    [DateCreated] DATETIME2 NOT NULL, 
     CONSTRAINT [FK_Posts_Users] FOREIGN KEY (UserId) REFERENCES Users(Id)
 )

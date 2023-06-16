@@ -62,8 +62,16 @@
   <ItemGroup>
     <Build Include="dbo\Tables\Users.sql" />
     <Build Include="dbo\Tables\Posts.sql" />
+    <Build Include="spUsers_Authenticate.sql" />
+    <Build Include="spUsers_Register.sql" />
+    <Build Include="spPosts_Insert.sql" />
+    <Build Include="spPosts_List.sql" />
+    <Build Include="spPosts_Detail.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AquinoBlogDB.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="AquinoBlogDB.refactorlog" />
   </ItemGroup>
 </Project>
